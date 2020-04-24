@@ -6,6 +6,7 @@ class Prueba{
     private $name;
     private $apellido;
     private $bienvenida;
+    private $uri;
 
     public function setName($name){
         $this->name = $name;
@@ -22,8 +23,13 @@ class Prueba{
         return $this;
     }
 
+    public function setUri($x){
+        $this->uri = $x;
+        return $this;
+    }
+
     public function getSaludo(){
-        return $this->bienvenida.' '.$this->name.' '.$this->apellido;
+        return $this->uri.'/sendMail';
     }
 
 }
