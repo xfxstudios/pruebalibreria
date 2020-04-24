@@ -1,5 +1,5 @@
 <?php
-namespace xfxstudios\Miclase;
+namespace emcpublicidad\Miclase;
 
 class Prueba{
 
