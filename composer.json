@@ -2,7 +2,7 @@
     "name": "emcpublicidad/miclase",
     "description": "una prueba de libreria composer.",
     "keywords": ["template", "composer", "package"],
-    "license": "SPDX",
+    "license": "MIT",
     "authors": [
         {
             "name": "Carlos Quintero",
